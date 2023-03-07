@@ -1,5 +1,4 @@
 body {
-  background-color: black;
   color: white;
   font-family: 'Times New Roman', Times, serif;
 }
@@ -13,4 +12,28 @@ body {
   h1 {
     font-size: 60px;
   }
+}
+.page1 {
+  height: 60vh;
+  background-color: rgb(56, 154, 56);
+  display: grid;
+  grid-template-columns: 20fr 80fr;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+}
+.introLine {
+  text-align: center;
+}
+.page2 {
+  background-color: white;
+  position: relative;
+  height: 100vh;
+}
+.loremTxt{
+  padding: 50vh 0;
+  text-align: center;
+
+  
 }
