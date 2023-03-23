@@ -12,8 +12,8 @@ function App() {
       <Routes>
         <Route path='/media-querries' element={<Mqrs />}></Route>
         <Route path='/' element={<Home />}></Route>
-        <Route path='zidx' element={<Zidx />}></Route>
-        <Route path="props" element={< AllLandscapes/>}></Route>
+        <Route path='/zidx' element={<Zidx />}></Route>
+        <Route path="/props" element={< AllLandscapes/>}></Route>
       </Routes>
     </>
   );
